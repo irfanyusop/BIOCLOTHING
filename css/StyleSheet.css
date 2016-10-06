@@ -47,11 +47,23 @@
     color:white;
 }
 #header #links ul li {
-    display:inline-table;
+    display:inline;
     padding:.8em;
     margin:.8em;
     font-size:1em;
     text-align:right;
+    float:left;
+}
+#header #links .adminlogin {
+    position:fixed;
+    right:0;
+    padding:10px;
+    background-color:#0a4d0a;
+    border-radius:20px 0px 0px 20px;
+}
+.adminlogin li:hover {
+    opacity:.8;
+    background-color:#19a831;
 }
 
 #header #links a {
@@ -91,4 +103,36 @@
 
 #icontact {
     padding:20px;
+}
+
+#loginpage {
+    padding:20px;
+
+}
+#loginpage h3 {
+    margin-left:10%;
+}
+#loginpage table {
+   width:50%;
+   margin-left:10%;
+}
+/*forms*/
+
+input[type=text],input[type=password] {
+    width:200px;
+    padding:10px;
+    background-color:rgba(10, 77, 10, 0.24);
+}
+
+textarea{
+   
+    padding:10px;
+    background-color:rgba(10, 77, 10, 0.24);
+}
+input[type=submit]{
+    padding:10px;
+    background-color:#0a4d0a;
+    color:white;
+    width:100px;
+    border:1px solid #ffffff;
 }

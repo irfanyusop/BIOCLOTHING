@@ -1,0 +1,94 @@
+﻿body {
+    font-family:arial;
+    margin:0px;
+    padding:0px;
+    background-color:#ffffff;
+}
+
+#bar {
+    width:100%;
+    height:200px;
+    position:fixed;
+    top:0;
+    background-color:#19a831;
+    z-index:-1;
+
+}
+#outbox {
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    z-index:1;
+  
+    height:auto;
+   
+}
+#header {
+    height:150px;
+    padding:10px;
+}
+#header div {
+    
+}
+#header #logo {
+    color:white;
+    background-size:contain;
+    width:30%;
+    float:left;
+   
+}
+#header #logo img {
+    border-radius:15px;
+}
+#header #links {
+    width:70%;
+    float:right;
+    color:white;
+}
+#header #links ul li {
+    display:inline-table;
+    padding:.8em;
+    margin:.8em;
+    font-size:1em;
+    text-align:right;
+}
+
+#header #links a {
+    color:#ffffff;
+    text-decoration:none;
+}
+#contents {
+
+    background-color:#ffffff;
+    color:#282828;
+    height:500px;
+    margin-top:0px;
+    padding-top:30px;
+    border-radius:20px;
+    
+}
+#footer {
+    height:100%;
+    background-color:#19a831;
+    position:fixed;
+    width:100%;
+    clear:both;
+}
+#ipage {
+  padding:15px;
+}
+#ipage img {
+    display:block;
+    float:right;
+    width:50%;
+    height:50%;
+}
+
+#ipage h1 {
+    font-size:1.5em;
+}
+
+#icontact {
+    padding:20px;
+}

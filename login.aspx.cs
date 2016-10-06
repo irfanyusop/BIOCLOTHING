@@ -55,7 +55,7 @@ public partial class login : System.Web.UI.Page
                 else
                 {
                     Response.Write("<script> alert('Login successful (GUEST). Press OK to continue') </script>");
-                    Response.Write("<script> window.location.href='membershop.aspx' </script>");
+                    Response.Write("<script> window.location.href='members.aspx' </script>");
                 }
                 }
             }

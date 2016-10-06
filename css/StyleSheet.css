@@ -74,7 +74,7 @@
 
     background-color:#ffffff;
     color:#282828;
-    height:500px;
+   
     margin-top:0px;
     padding-top:30px;
     border-radius:20px;
@@ -118,7 +118,7 @@
 }
 /*forms*/
 
-input[type=text],input[type=password] {
+input[type=text],input[type=password],select,input[type=number] {
     width:200px;
     padding:10px;
     background-color:rgba(10, 77, 10, 0.24);
@@ -129,10 +129,36 @@ textarea{
     padding:10px;
     background-color:rgba(10, 77, 10, 0.24);
 }
-input[type=submit]{
+input[type=submit],input[type=reset]{
     padding:10px;
     background-color:#0a4d0a;
     color:white;
     width:100px;
     border:1px solid #ffffff;
+}
+/*end*/
+#members {
+    height:500px;
+    padding:10px;
+}
+#members #productlisting {
+
+    width:60%;
+    height:500px;
+    overflow-x:scroll;
+    padding:20px;
+    float:left;
+    background-color:#19a831;
+
+}
+
+#members #dashboard {
+
+    width:30%;
+    height:500px;
+    overflow-x:scroll;
+    padding:20px;
+    float:right;
+     background-color:#0a4d0a;
+
 }

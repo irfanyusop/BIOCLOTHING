@@ -2,7 +2,7 @@
 
 <asp:Content ID="ilogin" ContentPlaceHolderID="placeholdermain" runat="server">
     <div id="loginpage">
-        <h3>Member Login</h3>
+        <h3>Login</h3>
         <table>
             <tr>
                 <td>IC Number</td>

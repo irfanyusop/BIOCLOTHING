@@ -32,6 +32,42 @@ public partial class login : System.Web.UI.Page
     }
     protected void btnLogin_Click(object sender, EventArgs e)
     {
+        check_ic(txtic.Text, txtpassword.Text);
+       
+    }
 
+    public void check_ic(String ic,String pass)
+    {
+      
+        try
+        {
+            command = new SqlCommand("SELECT * FROM userinformation WHERE icnumber='" + ic + "' AND userpassword='" + pass +"'", database);
+            reader = command.ExecuteReader();
+            
+            if (reader.HasRows)
+            {
+                while (reader.Read()) { 
+                if (reader[6].ToString().Equals("admin"))
+                {
+                    Response.Write("<script> alert('Login successful (ADMIN). Press OK to continue') </script>");
+                    Response.Write("<script> window.location.href='admin.aspx' </script>");
+                }
+                else
+                {
+                    Response.Write("<script> alert('Login successful (GUEST). Press OK to continue') </script>");
+                    Response.Write("<script> window.location.href='membershop.aspx' </script>");
+                }
+                }
+            }
+            else
+            {
+                Response.Write("<script> alert('Login Failed!. Please check your ic or password') </script>");
+            }
+        }
+        catch (Exception ex)
+        {
+            Response.Write(ex.Message);
+        }
+      
     }
 }

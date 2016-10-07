@@ -29,7 +29,7 @@ For Wellness</h3>
                 
               </ul>
               <ul class="adminlogin">
-                    <li><a href="Default.aspx">Admin Login</a></li>
+                    
                   <li><a href="login.aspx">Member Login</a></li>
               </ul>
 

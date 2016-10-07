@@ -246,6 +246,7 @@ input[type=submit],input[type=reset]{
 }
 #dashboard {
     text-align:center;
+    overflow-y:hidden;
 }
 
 #dashboard #cart {
@@ -271,5 +272,63 @@ input[type=submit],input[type=reset]{
 }
 
 #dashboard input[type=submit] {
+      font-size:.7em;
+      width:120px;
+      border-radius:10px;
+      text-align:center;
       
+}
+#filter select {
+    padding:0;
+    width:100px;
+}
+
+#changepass {
+  text-align:center;
+    padding:20px;
+   
+}
+
+#changepass table {
+     margin-left:auto;
+    margin-right:auto;
+}
+
+#checkout {
+    padding:20px;
+    height:400px;
+}
+
+#checkout div {
+      
+}
+#checkout #checkoutitems {
+    width:60%;
+   
+    height:400px;
+    overflow-y:scroll;
+    float:left;
+      padding:20px;
+}
+
+#checkout #checkoutitems img {
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    border:1px inset gray;
+}
+
+#checkout #checkoutitems table {
+    width:100%;
+    text-align:center;
+     border:none;
+     font-size:.9em;
+     
+}
+
+#checkout #paypal {
+    width:35%;
+    background-color:#0e0d0d;
+    height:400px;
+    float:right;
 }

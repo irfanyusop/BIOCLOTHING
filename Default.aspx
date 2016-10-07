@@ -3,8 +3,11 @@
 <asp:Content ID="index" ContentPlaceHolderID="placeholdermain" runat="server">
 
     <div id="ipage">
+          <hr />
        <div id="right"><img src="images/main.PNG" alt="main" /></div>
+       
            <div id="left">
+                <hr />
         <h1>Latest Products</h1>
         <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
 
@@ -38,7 +41,7 @@
                 </FooterTemplate>
 
         </asp:Repeater>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BioDB %>" SelectCommand="SELECT * FROM [products] ORDER BY [productid] DESC"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:BioDB %>" SelectCommand="SELECT TOP 6 * FROM [products] ORDER BY [productid] DESC"></asp:SqlDataSource>
     </div>
    
     </div>

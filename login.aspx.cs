@@ -51,11 +51,13 @@ public partial class login : System.Web.UI.Page
                 {
                     Response.Write("<script> alert('Login successful (ADMIN). Press OK to continue') </script>");
                     Response.Write("<script> window.location.href='admin.aspx' </script>");
+                    Session["admin"] = ic;
                 }
                 else
                 {
                     Response.Write("<script> alert('Login successful (GUEST). Press OK to continue') </script>");
                     Response.Write("<script> window.location.href='members.aspx' </script>");
+                    Session["guest"] = ic;
                 }
                 }
             }

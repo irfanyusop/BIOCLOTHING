@@ -159,7 +159,7 @@ input[type=submit],input[type=reset]{
     overflow-x:scroll;
     padding:20px;
     float:right;
-     background-color:#0a4d0a;
+    
 
 }
 #productlisting ul {
@@ -243,4 +243,33 @@ input[type=submit],input[type=reset]{
     font-size:.9em;
    
 
+}
+#dashboard {
+    text-align:center;
+}
+
+#dashboard #cart {
+    padding:10px;
+    border:1px solid #808080;
+}
+
+#dashboard #cart table {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+   
+    width:200px;
+}
+
+#dashboard #cart h3 {
+    text-align:center;
+}
+#dashboard #cart {
+    height:300px;
+    overflow-y:scroll;
+    font-size:.8em;
+}
+
+#dashboard input[type=submit] {
+      
 }

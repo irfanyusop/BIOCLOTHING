@@ -191,6 +191,11 @@ input[type=submit],input[type=reset]{
 }
 
 
+
+
+
+
+
 #productlisting ul li:hover span{
     display:list-item;
     text-align:center;
@@ -369,4 +374,62 @@ border:1px solid #ffad41; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 }
 #checkout #payment input[type=email],#checkout #payment input[type=password]{
     padding:2px;
+}
+
+#transaction {
+    height:400px;
+    overflow-y:scroll;
+    font-size:.5em;
+}
+
+#transaction img {
+    width:100px;
+    height:100px;
+}
+
+#ipage {
+    height:500px;
+    padding:50px;
+    
+}
+
+#ipage #left {
+    width:100%; 
+    float:left;
+    height:500px;
+    overflow-x:scroll;
+   
+}
+#ipage table {
+    text-align:center;
+    float:left;
+    margin:10px;
+    border:solid 1px #282828;
+    padding:30px;
+    font-size:.8em;
+}
+
+#ipage table tr td {
+    text-align:center;
+   vertical-align:middle;
+   height:20px;
+    
+}
+#ipage table img {
+    
+    width:220px;
+    height:220px;
+    box-shadow:5px 5px 5px 5px gray;
+    border-radius:100%;
+}
+#ipage #right {
+    width:100%;
+    z-index:0;
+    float:right;
+    clear:left;
+}
+#ipage #right img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }

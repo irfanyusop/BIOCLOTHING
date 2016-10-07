@@ -43,7 +43,29 @@ For Wellness</h3>
         </div>
        
     </div>
-         <div id="footer"></div>
+         <div id="footer">
+            
+
+            <table >
+                <tr>
+                    <td><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> 
+</td>
+                    <td><a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> </td>
+                    <td><a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></td>
+                </tr>
+            </table>
+
+           
+            <p>Copyright @ </p>
+            <p>Site designed by:</p>
+            <p align="center"><strong><u>Follow us at</u></strong></p>
+            <p>
+      <img src="images/facebook.png" />
+      <img src="images/instagram.ico" />
+      <img src="images/twitter.png" />
+  </p>
+
+         </div>
     </form>
 </body>
 </html>

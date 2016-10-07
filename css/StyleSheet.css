@@ -118,7 +118,7 @@
 }
 /*forms*/
 
-input[type=text],input[type=password],select,input[type=number] {
+input[type=text],input[type=password],select,input[type=number],input[type=email] {
     width:200px;
     padding:10px;
     background-color:rgba(10, 77, 10, 0.24);
@@ -328,9 +328,15 @@ input[type=submit],input[type=reset]{
 
 #checkout #paypal {
     width:35%;
-    background-color:#0e0d0d;
+   
     height:400px;
     float:right;
+}
+
+#checkout #paypal img {
+    width:30%;
+    width:30%;
+
 }
 #checkout #payment {
     width:60%;
@@ -360,4 +366,7 @@ border:1px solid #ffad41; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
  background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
  background-image: -o-linear-gradient(top, #ffaf46, #e78404);
  background-image: linear-gradient(to bottom, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
+}
+#checkout #payment input[type=email],#checkout #payment input[type=password]{
+    padding:2px;
 }

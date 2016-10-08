@@ -22,9 +22,9 @@ For Wellness</h3>
           <div id="links">
               <ul>
                   <li><a href="Default.aspx">Home</a></li>
-                    <li><a href="Default.aspx">Shop</a></li>
-                    <li><a href="Default.aspx">About US</a></li>
-                    <li><a href="contactus.aspx">Contact</a></li>
+                    <li><a href="login.aspx">Shop</a></li>
+                  
+                    <li><a href="contactus.aspx">Contact US</a></li>
                    
                 
               </ul>

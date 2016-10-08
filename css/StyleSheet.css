@@ -447,3 +447,28 @@ border:1px solid #ffad41; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
     margin-left:auto;
     margin-right:auto;
 }
+
+#contacts {
+    
+    
+   
+    margin:0;
+   height:700px;
+  
+}
+
+#contactcontent {
+    width:50%;
+    background-color:white;
+    padding:10px;
+    margin:0px;
+    float:left;
+   
+}
+#map {
+    background-image:url(../images/map.PNG);
+  
+    width:45%;
+    height:100%;
+    float:right;
+}

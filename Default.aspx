@@ -3,12 +3,14 @@
 <asp:Content ID="index" ContentPlaceHolderID="placeholdermain" runat="server">
 
     <div id="ipage">
-          <hr />
-       <div id="right"><img src="images/main.PNG" alt="main" /></div>
+         
+       <div id="right"><img src="images/main.PNG" alt="main" />
+           <p><a href="#l1">view more</a></p>
+       </div>
        
            <div id="left">
                 <hr />
-        <h1>Latest Products</h1>
+        <h1 id="l1">Latest Products</h1>
         <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
 
                 <HeaderTemplate>
